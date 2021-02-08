@@ -1,6 +1,6 @@
 <?php
 
-namespace tbclla\RevolutMerchant\Facades;
+namespace Eonlab\RevolutMerchant\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
