@@ -115,6 +115,19 @@ class Client
     {
         return $this->request('GET', $endpoint, $options);
     }
+    
+    /**
+     * Perform a 'DELETE' request
+     *
+     * @param string $endpoint The request endpoint
+     * @param array $id The request options
+     * @return array The response body
+     * @throws \tbclla\RevolutMerchant\Exceptions\MerchantException
+     */
+    public function delete(string $endpoint, string $id)
+    {
+        return $this->request('DELETE', $endpoint.'/'.$id, []);
+    }
 
     /**
      * Perform a request
