@@ -1,6 +1,6 @@
 <?php
 
-namespace tbclla\RevolutMerchant\Exceptions;
+namespace Eonlab\RevolutMerchant\Exceptions;
 
 use Exception;
 
