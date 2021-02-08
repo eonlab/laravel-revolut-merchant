@@ -1,6 +1,6 @@
 <?php
 
-namespace tbclla\RevolutMerchant\Resources;
+namespace Eonlab\RevolutMerchant\Resources;
 
 class Webhook extends Resource
 {
