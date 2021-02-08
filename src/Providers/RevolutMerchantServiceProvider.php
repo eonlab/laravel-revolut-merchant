@@ -1,6 +1,6 @@
 <?php
 
-namespace tbclla\RevolutMerchant\Providers;
+namespace Eonlab\RevolutMerchant\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
