@@ -1,8 +1,8 @@
 <?php
 
-namespace tbclla\RevolutMerchant\Resources;
+namespace Eonlab\RevolutMerchant\Resources;
 
-use tbclla\RevolutMerchant\Client;
+use Eonlab\RevolutMerchant\Client;
 
 abstract class Resource
 {
