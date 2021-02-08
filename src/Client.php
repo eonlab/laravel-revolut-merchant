@@ -1,6 +1,6 @@
 <?php
 
-namespace tbclla\RevolutMerchant;
+namespace Eonlab\RevolutMerchant;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;
