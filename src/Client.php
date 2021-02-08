@@ -4,7 +4,7 @@ namespace tbclla\RevolutMerchant;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;
-use tbclla\RevolutMerchant\Exceptions\MerchantException;
+use Eonlab\RevolutMerchant\Exceptions\MerchantException;
 
 /**
  * @method \tbclla\RevolutMerchant\Resources\Order order()
