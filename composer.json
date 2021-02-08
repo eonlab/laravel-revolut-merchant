@@ -7,16 +7,16 @@
     },
     "autoload": {
         "psr-4": {
-            "eonlab\\RevolutMerchant\\": "src/"
+            "Eonlab\\RevolutMerchant\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "eonlab\\RevolutMerchant\\Providers\\RevolutMerchantServiceProvider"
+                "Eonlab\\RevolutMerchant\\Providers\\RevolutMerchantServiceProvider"
             ],
             "aliases": {
-                "Merchant": "eonlab\\RevolutMerchant\\Facades\\Merchant"
+                "Merchant": "Eonlab\\RevolutMerchant\\Facades\\Merchant"
             }
         }
     },
