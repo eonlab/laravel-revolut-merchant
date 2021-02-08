@@ -1,5 +1,5 @@
 {
-    "name": "tbclla/laravel-revolut-merchant",
+    "name": "eonlablaravel-revolut-merchant",
     "description": "An unoffial Laravel wrapper for Revolut's Merchant API",
     "license": "MIT",
     "require": {
