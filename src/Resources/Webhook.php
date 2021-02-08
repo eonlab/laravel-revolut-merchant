@@ -18,11 +18,12 @@ class Webhook extends Resource
      * @return array The request body
      * @throws \tbclla\RevolutMerchant\Exceptions\MerchantException
      */
-    public function set(string $url = null)
+    public function set(string $url = null, array $events)
     {
         return $this->client->post(self::ENDPOINT, [
             'json' => [
                 'url' => $url,
+                'events' => $events
             ]
         ]);
     }
