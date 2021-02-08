@@ -4,7 +4,7 @@ namespace tbclla\RevolutMerchant\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use tbclla\RevolutMerchant\Client;
+use Eonlab\RevolutMerchant\Client;
 
 class RevolutMerchantServiceProvider extends ServiceProvider
 {
