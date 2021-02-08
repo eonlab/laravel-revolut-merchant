@@ -34,9 +34,9 @@ class Webhook extends Resource
      * @return array The request body
      * @throws \tbclla\RevolutMerchant\Exceptions\MerchantException
      */
-    public function revoke()
+    public function revoke(string $id)
     {
-        return $this->set();
+        return $this->client->delete(self::ENDPOINT, $id);
     }
 
     /**
