@@ -74,7 +74,7 @@ class Order extends Resource
         ]);
     }
     
-    **
+    /**
      * Update order
      *  
      * @param string $id The payment order ID
