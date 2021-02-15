@@ -73,4 +73,20 @@ class Order extends Resource
             'json' => $json,
         ]);
     }
+    
+    **
+     * Update order
+     *  
+     * @param string $id The payment order ID
+     * @param array $json The request body
+     * @return array The respone body
+     * @throws \tbclla\RevolutMerchant\Exceptions\MerchantException
+     */
+    public function update(string $id, array $json)
+    {
+        return $this->client->patch(self::ENDPOINT . '/' . $id, [
+            'json' => $json,
+        ]);
+    }
+    
 }
