@@ -117,6 +117,19 @@ class Client
     }
     
     /**
+     * Perform a 'PATCH' request
+     *
+     * @param string $endpoint The request endpoint
+     * @param array $options The request options
+     * @return array The response body
+     * @throws \tbclla\RevolutMerchant\Exceptions\MerchantException
+     */
+    public function patch(string $endpoint, array $options = [])
+    {
+        return $this->request('PATCH', $endpoint, $options);
+    }
+    
+    /**
      * Perform a 'DELETE' request
      *
      * @param string $endpoint The request endpoint
