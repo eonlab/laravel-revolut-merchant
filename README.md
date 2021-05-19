@@ -145,7 +145,7 @@ Read [Revolut's official documentation about web-hooks](https://developer.revolu
 #### Create the web-hook
 
 ```php
-Merchant::webhook()->create('https://myapp.com/webhook');
+Merchant::webhook()->set('https://myapp.com/webhook');
 ```
 
 #### Revoke the web-hook
